@@ -1,4 +1,3 @@
-Set-Content -Path README.md -Value @"
 # 🛡️ Real-Time Multimodal Content Moderation System
 
 An end-to-end, containerized AI content safety microservice engineered to evaluate text for toxicity, hate speech, and harmful content with sub-150ms inference response times.
@@ -74,7 +73,3 @@ An end-to-end, containerized AI content safety microservice engineered to evalua
 \`\`\`
 "@
 
-# Stage, commit, and push to GitHub
-git add README.md
-git commit -m "Docs: Add comprehensive README.md"
-git push origin main
