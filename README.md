@@ -28,5 +28,5 @@ An end-to-end, containerized AI content safety microservice engineered to evalua
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Bobby6783/content-moderation-api.git](https://github.com/Bobby6783/content-moderation-api.git)
+   git clone https://github.com/Bobby6783/content-moderation-api.git https://github.com/Bobby6783/content-moderation-api.git
    cd content-moderation-api
