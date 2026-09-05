@@ -27,49 +27,6 @@ An end-to-end, containerized AI content safety microservice engineered to evalua
 ## 📦 Quickstart with Docker
 
 1. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/Bobby6783/content-moderation-api.git
+   ```bash
+   git clone [https://github.com/Bobby6783/content-moderation-api.git](https://github.com/Bobby6783/content-moderation-api.git)
    cd content-moderation-api
-   \`\`\`
-
-2. **Launch services:**
-   \`\`\`bash
-   docker compose up --build
-   \`\`\`
-
-3. **Access endpoints:**
-   * **Streamlit UI:** `http://localhost:8501`
-   * **FastAPI Docs:** `http://localhost:8000/docs`
-
----
-
-## 📊 API Usage Example
-
-**Endpoint:** `POST /v1/moderate-text`
-
-**Sample Request:**
-\`\`\`json
-{
-  "text": "Cybercriminals attempt to attack system infrastructure."
-}
-\`\`\`
-
-**Sample Response:**
-\`\`\`json
-{
-  "text": "Cybercriminals attempt to attack system infrastructure.",
-  "flagged": false,
-  "confidence_score": 0.042,
-  "categories": {
-    "toxic": 0.042,
-    "severe_toxic": 0.001,
-    "obscene": 0.003,
-    "threat": 0.008,
-    "insult": 0.005,
-    "identity_hate": 0.002
-  },
-  "latency_ms": 118.4
-}
-\`\`\`
-"@
-
